@@ -1,4 +1,4 @@
-# PhpRedis constants are not defined
+# PhpRedis RedisCluster constants are not defined
 
 ## Requirements
 - Docker Compose
