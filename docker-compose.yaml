@@ -1,0 +1,13 @@
+version: '3.6'
+
+services:
+  php:
+    build:
+      context: ./
+#      args:
+#        COMMIT_HASH: b580505b40ef8b182ca79d49cda38c7d1ea9b5c7 
+    ports:
+      - 8080:8080
+    volumes:
+      - ./public:/app/public
+
